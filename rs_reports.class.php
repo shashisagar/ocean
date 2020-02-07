@@ -8,6 +8,7 @@ class RS_REPORT_Manager
         $db = new DatabaseUtilities( $db_config );
         $from_date_final="";
         $to_date_final="";
+        $to_date_final1="";
         $result=array();
 
         if(!empty($from_date) && !empty($to_date)) {
